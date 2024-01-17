@@ -1,13 +1,13 @@
 package models;
 
 public class Patient {
-    String pId;
-    String name;
-    int age;
-    Long phoneNo;
-    String email;
-    String gender;
-    String disease;
+    public String pId;
+    public String name;
+    public int age;
+    public Long phoneNo;
+    public String email;
+    public String gender;
+    public String disease;
 
     Doctor doctor;
 
